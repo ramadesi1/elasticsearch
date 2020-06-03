@@ -1,0 +1,18 @@
+{
+  "name": "elastic-search",
+  "version": "1.0.0",
+  "description": "**Elasticsearch** adalah salah satu database yang masuk ke dalam NoSQL dengan fokus di search engine database. Elasticsearch ditenagai oleh Apache Lucene yang juga merupakan search engine database yang memiliki query low level. Elasticsearch memiliki query yang lebih mudah untuk digunakan karena berbasis RESTful",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "desi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "elasticsearch": "^16.7.1",
+    "express": "^4.17.1"
+  }
+}
